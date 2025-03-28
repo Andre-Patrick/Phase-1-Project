@@ -1,0 +1,51 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "5 Essential Money-Saving Tips",
+      "content": "Start by creating a budget that tracks your income and expenses...",
+      "author": "Sarah Johnson",
+      "date": "2024-03-15",
+      "comments": [
+        {"user": "Mike22", "text": "Great advice, thanks!", "date": "2024-03-16"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Understanding Stock Market Basics",
+      "content": "The stock market can seem intimidating, but here's what beginners need to know...",
+      "author": "David Chen",
+      "date": "2024-03-14",
+      "comments": []
+    }
+  ],
+  "investments": [
+    {
+      "id": 1,
+      "name": "Tech Giant Corp",
+      "symbol": "TGC",
+      "type": "stock",
+      "price": 245.50,
+      "change": 1.2,
+      "riskLevel": "medium"
+    },
+    {
+      "id": 2,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "type": "crypto",
+      "price": 42000,
+      "change": -2.8,
+      "riskLevel": "high"
+    },
+    {
+      "id": 3,
+      "name": "Green Energy Ltd",
+      "symbol": "GEL",
+      "type": "share",
+      "price": 85.75,
+      "change": 0.5,
+      "riskLevel": "low"
+    }
+  ]
+}

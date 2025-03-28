@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Help - Investments</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/investments.css">
+    <div class="header">
+        <h1>Money Help</h1>
+        <div class="auth-buttons">
+            <a href="index.html" class="home-btn">Home</a>
+        </div>
+    </div>
+</head>
+<body>
+    <div class="header">
+        <h1>Money Help</h1>
+        <p>Your Personal Financial Advisor</p>
+        <div class="auth-buttons">
+            <button id="loginBtn" class="auth-btn">Login</button>
+            <button id="logoutBtn" class="auth-btn hidden">Logout</button>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <a href="login.html" class="nav-link">Login</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="investments.html" class="nav-link active">Investments</a>
+        <a href="index.html" class="nav-link active">Home</a>
+    </nav>
+
+    <main class="container">
+        <section class="investments-section">
+            <div class="section-header">
+                <h2>Investment Opportunities</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="stock">Stocks</button>
+                    <button class="filter-btn" data-filter="crypto">Crypto</button>
+                    <button class="filter-btn" data-filter="share">Shares</button>
+                </div>
+            </div>
+            <div id="investmentsGrid" class="investments-grid"></div>
+        </section>
+    </main>
+
+    <script src="js/auth.js"></script>
+    <script src="js/investments.js"></script>
+    <a href="index.html" class="home-btn floating-home">
+        🏠 Home
+    </a>
+</body>
+</html>
