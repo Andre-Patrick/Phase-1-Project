@@ -1,61 +1,81 @@
-.post-card {
-    background: #fff;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.post-meta {
-    color: #666;
-    font-size: 0.9rem;
-    margin: 0.5rem 0;
-}
-
-.comments-section {
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid #eee;
-}
-
-
-.container {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
-.blog-section {
-    background: white;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .post-card {
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.post-header {
+    margin-bottom: 15px;
+}
+
+.post-title {
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
 }
 
 .post-meta {
-    color: #666;
+    color: #7f8c8d;
     font-size: 0.9rem;
-    margin: 0.5rem 0;
+    display: flex;
+    gap: 15px;
+}
+
+.post-content {
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .comments-section {
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ecf0f1;
+    padding-top: 20px;
+}
+
+.comments-title {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
 }
 
 .comment-card {
-    background: #f9f9f9;
-    border-radius: 8px;
-    padding: 1rem;
-    margin-top: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.comment-author {
+    color: #3498db;
+    font-weight: 500;
+}
+
+.comment-date {
+    color: #95a5a6;
+    font-size: 0.85rem;
+}
+
+.comment-text {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.error-message {
+    color: #e74c3c;
+    padding: 20px;
+    text-align: center;
 }

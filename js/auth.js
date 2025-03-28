@@ -1,4 +1,3 @@
-import { fetchData, postData, updateAuthState, showMessage } from './utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   setupAuthForms();

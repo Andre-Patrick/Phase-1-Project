@@ -7,7 +7,11 @@
       "author": "Sarah Johnson",
       "date": "2024-03-15",
       "comments": [
-        {"user": "Mike22", "text": "Great advice, thanks!", "date": "2024-03-16"}
+        {
+          "user": "Mike22",
+          "text": "Great advice, thanks!",
+          "date": "2024-03-16"
+        }
       ]
     },
     {
@@ -17,8 +21,61 @@
       "author": "David Chen",
       "date": "2024-03-14",
       "comments": []
+    },
+    {
+      "id": 3,
+      "title": "How Much Should I Invest in Crypto as a Beginner?",
+      "content": "I'm new to cryptocurrency investments. What percentage of my portfolio would be reasonable to allocate to crypto?",
+      "author": "CryptoNewbie89",
+      "date": "2024-03-17",
+      "comments": [
+        {
+          "user": "FinancePro",
+          "text": "Most experts recommend no more than 5% of your total portfolio for high-risk assets like crypto. Always remember to DYOR!",
+          "date": "2024-03-17"
+        },
+        {
+          "user": "BitcoinHodler",
+          "text": "Start small with 1-2% and only invest what you can afford to lose completely. The market is very volatile!",
+          "date": "2024-03-18"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Emergency Fund Strategies That Work",
+      "content": "Sharing my approach: I keep 6 months' expenses in a high-yield savings account. What methods do others use?",
+      "author": "SavvySaver",
+      "date": "2024-03-18",
+      "comments": [
+        {
+          "user": "BudgetMaster",
+          "text": "Great strategy! I use a tiered approach: 3 months cash, 3 months in short-term bonds.",
+          "date": "2024-03-19"
+        },
+        {
+          "user": "FirstTimeInvestor",
+          "text": "Is it better to prioritize emergency fund over retirement savings?",
+          "date": "2024-03-19"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Help! Credit Card Debt Payoff Options",
+      "content": "I have $15k in credit card debt. Should I focus on highest interest first or consider balance transfer cards?",
+      "author": "DebtFreeWannabe",
+      "date": "2024-03-20",
+      "comments": [
+        {
+          "user": "DebtSlayer2024",
+          "text": "Avalanche method (high interest first) mathematically works best, but snowball method might be better for motivation!",
+          "date": "2024-03-20"
+        }
+      ]
     }
   ],
+  
   "investments": [
     {
       "id": 1,
@@ -27,7 +84,8 @@
       "type": "stock",
       "price": 245.50,
       "change": 1.2,
-      "riskLevel": "medium"
+      "riskLevel": "medium",
+      "description": "Global technology leader in cloud computing and AI solutions. Dividend yield: 1.5%"
     },
     {
       "id": 2,
@@ -36,7 +94,8 @@
       "type": "crypto",
       "price": 42000,
       "change": -2.8,
-      "riskLevel": "high"
+      "riskLevel": "high",
+      "description": "Leading cryptocurrency with limited supply. Market cap: $800B+"
     },
     {
       "id": 3,
@@ -45,7 +104,8 @@
       "type": "share",
       "price": 85.75,
       "change": 0.5,
-      "riskLevel": "low"
+      "riskLevel": "low",
+      "description": "Renewable energy infrastructure trust. 5-year average return: 8.2%"
     }
   ]
 }
